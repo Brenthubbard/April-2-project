@@ -4,7 +4,9 @@
 
 function numbersInput(numbers) {
   let numberArray = []
-  if (numbers )
+  numbersInput.forEach(function (element) {
+    
+  })
   return "greater than zero";
 }
 

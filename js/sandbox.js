@@ -1,20 +1,16 @@
-Test 1
+
 Numbers that contain 1 all digits are replaced with "Beep!"
 
-Test 2
 Numbers that contain 2 all digits are replaced with "BOOP!"
 
-Test 3
 NUmbers that contain a 3 all digits are repalced with "Won't you be my neighbor"
 
 
 
-
-
-Describe:turn the string into an array
-Test:
-Code:
-Expected Output:[1, 2, 3]
+// Describe:turn the string into an array
+// Test:
+// Code:
+// Expected Output:[1, 2, 3]
 
 
 Describe: Isolate the number 1 and convert to the word "Beep!"
