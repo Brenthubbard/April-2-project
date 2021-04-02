@@ -4,11 +4,14 @@
 
 function numbersInput(numbers) {
   let numberArray = []
-  if (number <= 0)
+  if (numbers )
+  return "greater than zero";
 }
-return ;
 
 function number1change(number1) {
-let 
+if 
 
 }
+
+
+//User Logic
