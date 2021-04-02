@@ -10,12 +10,6 @@
 //   return "greater than zero";
 // }
 
-// function number1change(number1) {
-// if 
-
-// }
-
-// let numbers
 
 
 //User Logic
@@ -26,16 +20,15 @@ $(document).ready(function () {
     const userInput = parseInt($("#userInput").val());
 
     for (let index = 0; index <= userInput; index++) {
-      if (index === 1) {
-        console.log("Beep!");
-      } else if (index === 2) {
+      if (index.toString().indexOf("3") > -1) {
+        console.log("Won't you be my neighbor?");
+      } else if (index.toString().indexOf("2") > -1) {
         console.log("Boop!")
-      } else if (index === 3) {
-        console.log("Won't you be my neighbor?")
+      } else if (index.toString().indexOf("1") > -1) {
+        console.log("Beep!")
       } else {
         console.log(index)
       }
     }
-    console.log(typeof userInput);
   });
 });
