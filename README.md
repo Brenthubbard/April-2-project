@@ -1,21 +1,23 @@
-# {Application Name}
+# Mr. Roboger's Neighborhood
 
-#### {Brief description of application}
+#### This application was designed to show my ability as a student to to work with arrays, loops and Test Driven Development using JavaScript. 
 
-#### By: YOUR NAME
+#### By: Brent Hubbard
 
 ## Technologies Used
 
 * HTML
 * CSS
 * Bootstrap
-
+* JavaScript
+* JQuery
 
 ## Description
 
-This web application is designed to BLANK
+This web application is designed to take a number form the user and return a range of numbers from 0 to the number inputted by the user but change the numbers 1,2,3 to different outputs.
 
 ## Specs
+
 
 
 ## Setup/Installation Requirements
