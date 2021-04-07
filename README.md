@@ -36,22 +36,6 @@ NUmbers that contain a 3 all digits are repalced with "Won't you be my neighbor"
 * Expected Output:
 
 
-* Describe: Isolate the number 3 and convert to the string "Won't you be my neighbor?"
-* Test:
-* Code:
-* Expected Output:
-
-
-* Describe: return all elements in the string with converted elements 1,2,3 in order
-* Test:
-* Code:
-* Expected Output:
-
-
-* Describe: return array back to user on DOM
-* Test:
-* Code:
-* Expected Output:
 
 
 ## Setup/Installation Requirements
@@ -66,8 +50,8 @@ NUmbers that contain a 3 all digits are repalced with "Won't you be my neighbor"
 
 ## Known Bugs
 
-* Application was not designed for edge cases.
-* Will update later.
+* Logic works but can't get it to print to UI
+* 
 
 ## License
 
