@@ -40,9 +40,3 @@ $(document).ready(function () {
 
 
 
-// return numberArray;
-// function outPut(numberArray) {
-//   $(".outputText").show(numberArray(userInput))
-// };
-// document.getElementById("#answer").innerHTML = numberArray;
-// {
