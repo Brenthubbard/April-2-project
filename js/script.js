@@ -25,22 +25,24 @@ function loopingTheNumber(number) {
 $(document).ready(function () {
   $("form#user").submit(function (event) {
     event.preventDefault();
+    $("#answer").empty();
     const userInput = parseInt($("#userInput").val());
     const numberArray = loopingTheNumber(userInput);
     console.log(numberArray);
 
-    // return numberArray;
-    // function outPut(numberArray) {
-    //   $(".outputText").show(numberArray(userInput))
-    // };
-    // document.getElementById("#answer").innerHTML = numberArray;
-    // {
+    numberArray.forEach(function (element) {
+      $("#answer").append(`<h4>${element}</h4>`);
+    });
+    $("#userInput").val("");
   });
 
 });
 
 
 
-    numberArray(function (element) {
-    $("#answer").append`<h4>${element}</h4>`;
-    });
+// return numberArray;
+// function outPut(numberArray) {
+//   $(".outputText").show(numberArray(userInput))
+// };
+// document.getElementById("#answer").innerHTML = numberArray;
+// {

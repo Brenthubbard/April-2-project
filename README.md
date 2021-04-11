@@ -17,23 +17,41 @@
 This web application is designed to take a number form the user and return a range of numbers from 0 to the number inputted by the user but change the numbers 1,2,3 to different outputs.
 
 ## Specs
-Numbers that contain 1 all digits are replaced with "Beep!"
 
-Numbers that contain 2 all digits are replaced with "BOOP!"
+* Describe: create a list of numbers from 0 to the inputted number,
+* Test:count(1,2,3,4)
+* Code:function count (num) {
+let arr = [];
+for (let i = 1; i<= num; i++){
+arr.push(i.toString());
+}
+return arr.toString();
+}
+* Expected Output: 1,2,3,4
 
-NUmbers that contain a 3 all digits are repalced with "Won't you be my neighbor"
+* Describe:replace numbers with 3 with "Won't you be my neighbor"
+* Test:input 3
+* Code:if (i.toString().indexOf("3") > -1) {
+      arr.push("Won't you be my neighbor?");
+* Expected Output:(4) [0, "Beep!", "Boop!", "Won't you be my neighbor?"]
 
+* Describe:replace numbers with 2 with "Boop",
+* Test:input 2
+* Code:if (i.toString().indexOf("2") > -1) {
+      arr.push("Boop!");
+* Expected Output:(3) [0, "Beep!", "Boop!"]
 
-* Describe: Isolate the number 1 and convert to the word
-* "Beep!"
-* Test:
+* Describe:replace numbers with a 1 with "Beep"
+* Test:input 1
+* Code:(i.toString().indexOf("1") > -1) {
+      arr.push("Beep!");
+* Expected Output:(2) [0, "Beep!"]
+
+* Describe:maintain a hierarchy within the exception rules 
+(3s trump 2s which trump 1s). 
+* Test:put conditional statements in descending order
 * Code:
-* Expected Output
-
-* Describe: Isolate the number 2 and convert to the word "Boop!"<br/>
-* Test:
-* Code:
-* Expected Output:
+* Expected Output:[0, "Beep!", "Boop!", "Won't you be my neighbor?"]
 
 
 
